@@ -3,7 +3,7 @@ name: schedule-extend-euserv
 on:
   push:
   schedule:
-    - cron: '15 21 6 * *'
+    - cron: '15 21 17 * *'
 jobs:
   extend-euserv__main__:
     strategy:
